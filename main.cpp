@@ -1,14 +1,10 @@
 #include <iostream>
 #include <cmath>
 
-using std::endl;
-using std::cin;
-using std::cout;
-
 int main()
 {
-    cout << "THE FIRST EXAMPLE MATH DISPLAY!\n";
-    cout << "Hi, please enter two whole numbers: ";
+    std::cout << "THE FIRST EXAMPLE MATH DISPLAY!\n";
+    std::cout << "Hi, please enter two whole numbers: ";
 
     int x,y;
 
@@ -16,12 +12,11 @@ int main()
     cout << "Addition: " << x + y << endl;
     cout << "Subtraction: " << x - y << endl;
     cout << "Multiplication: " << x * y << endl;
-    if (y == 0) {
+if (y == 0) {
         cout << "Division: undefined (cannot divide by zero)" << endl;
     } else {
         cout << "Division: " << x / y << endl;
-    }
-    cout << "Remainder: " << x % y << endl;
+    }    cout << "Remainder: " << x % y << endl;
     cout << "Square Root: " << sqrt(x) << endl;
     cout << "Square: " << pow(x, y) << endl;
 
